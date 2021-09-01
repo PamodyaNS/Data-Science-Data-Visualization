@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 data[[:space:]]analysis.ipynb filter=lfs diff=lfs merge=lfs -text
+data[[:space:]]analysis.html filter=lfs diff=lfs merge=lfs -text
